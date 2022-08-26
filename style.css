@@ -1,0 +1,128 @@
+/*General*/
+body {
+    background-color: #050505;
+    font-family: Arial;
+}
+
+.wrapper {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Navbar-items*/
+.top-items {
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+
+.right-items {
+    text-align: right;
+    flex-grow: 1;
+}
+
+.left-items {
+    display: flex;
+    gap: 23px;
+}
+
+/*Navbar*/
+.netflix-logo {
+    margin-right: 20px;
+}
+
+.startseite {
+    font-weight: bold;
+    font-size: small;
+    margin-top: 9px;
+}
+
+.nav-item {
+    font-size: small;
+    margin-top: 9px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 23px;
+}
+
+.profile-icon {
+    width: 32px;
+    border-radius: 4px;
+    margin-right: 13px;
+}
+
+.caret {
+    border-color: #fff transparent transparent;
+    border-style: solid;
+    border-width: 5px 5px 0;
+    margin-top: 14px;
+}
+
+.right-nav-itm {
+    margin-right: 13px;
+    margin-bottom: 3px;
+}
+
+
+/*Film Picture CSS*/
+.firstrow {
+    margin-top: 40px;
+}
+
+.fullmetal {
+    width: 50%;
+}
+
+.firstfilms {
+    width: 24.4%;
+}
+
+.secondrow {
+    margin-top: 20px;
+}
+
+.secondfilms {
+    width: 24.6%;
+}
+
+/*Footer*/
+.footer {
+    bottom: 0;
+    margin-top: 40px;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.flex-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 36px;
+}
+
+.footer-item {
+    color: grey;
+    font-size: 15px;
+}
+
+/*.rights {
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+    //Need to find a nice design/idea fo this shi
+}*/
